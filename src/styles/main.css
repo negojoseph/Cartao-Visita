@@ -520,3 +520,29 @@ main section:last-child {
     display: flex;
     justify-content: space-between;
 }
+.voltar{
+    display: flex;
+    justify-content: end;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-family: var(--font-defaut);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: 0.2s ease-in-out;
+    padding: 10px;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 4px;
+    color: #340763;
+}
