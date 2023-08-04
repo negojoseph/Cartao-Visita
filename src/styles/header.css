@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 :root{
-    --primary-color: #E6E6E6;
-    --highlight-color: #9e78ee;
-    --body-color: #0a1527;
-    --body-color-secundary: #020a17;
+    --primary-color: #e6e6e6;
+    --highlight-color: #ff329d;
+    --body-color: #340763;
+    --body-color-secundary: #ff329d;
 
     --icon-color: #e6e6e6;
 
-    --header-background-color: #06101f;
+    --header-background-color: #020a17;
 
     --font-highlight: "Roboto", sans-serif;
     --font-defaut: "Montserrat", sans-serif;
@@ -134,7 +134,7 @@ header a{
     inset: 0;
     border-radius: 20px; /*1*/
     border: 6px solid transparent; /*2*/
-    background: linear-gradient(45deg,#EB1E9C,#2B56FF,#EB1E9C,#2B56FF) border-box;
+    background: linear-gradient(45deg,#04558a,#6c117b,#04558a,#6c117b) border-box;
     background-size: 300%; 
     -webkit-mask: /*3*/
     linear-gradient(rgb(255, 255, 255) 0 0) padding-box, 
